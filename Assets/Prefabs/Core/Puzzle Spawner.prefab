@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4774316646136679620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1202516832525084934}
+  - component: {fileID: 9188818489920084506}
+  m_Layer: 0
+  m_Name: Puzzle Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1202516832525084934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4774316646136679620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9188818489920084506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4774316646136679620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffb25ca482974b4987fe1de5ff4445a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coloredPieces:
+  - {fileID: 5572011410114635915, guid: 3f22a764839540e49a47de5f385b2d6b, type: 3}
+  - {fileID: 4399473460943433658, guid: 0bbc78bfa611f9d429c7a34801fd756c, type: 3}
+  - {fileID: 286992270354496563, guid: 16e761d0a00f1664c9a3aa594c8bcd00, type: 3}
+  - {fileID: 5400934328131237520, guid: febd59588fc4c1d418f7f156145595b6, type: 3}
+  minXY: {fileID: 0}
+  maxXY: {fileID: 0}
